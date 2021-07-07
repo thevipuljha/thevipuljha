@@ -37,11 +37,11 @@ let vipul={
 - If you watch movies like ${ vipul.popcornTalks } let's hangout sometime
 - I want to know enough that I can help more people today than yesterday
 
-<div align="center">
+<div align=center>
 <img src = "https://github-readme-stats.vercel.app/api?username=thevipuljha&show_icons=true&count_private=true&custom_title=MY%20GITHUB%20DATA&theme=radical&border_color=753778"  alt="github stats" height="150" width="400">
 <img src = "http://github-readme-streak-stats.herokuapp.com?user=thevipuljha&theme=radical&fire=FFE608&border=753778"  alt="github streak data" height="150" width="400">
 </div>
-<div align="center">
+<div align=center>
 <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=thevipuljha&custom_title=I%20Mostly%20Use&layout=compact"  alt="github languages usage" height="150" width="400">
 <img src = "https://github-readme-stats.vercel.app/api/wakatime?username=vipuljha&custom_title=My%20Time%20as%20Developer&layout=compact"  alt="waka time stat" height="150" width="400">
 </div>
@@ -49,8 +49,10 @@ let vipul={
 
 <!--END_SECTION:waka-->
 
-### Ending on funny note
-
-<img align="center" src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card"/>
-
-<img align="center" src="https://media.giphy.com/media/3o6Zt6KHxJTbXCnSvu/giphy.gif" width="300"/>
+<div align=center>
+<h2 align=center> Ending on a funny note</h2>
+<br>
+<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card"/>
+<br>
+<img src="https://media.giphy.com/media/3o6Zt6KHxJTbXCnSvu/giphy.gif" width="300"/>
+</div>
