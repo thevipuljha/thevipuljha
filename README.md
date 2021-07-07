@@ -1,6 +1,5 @@
 <h2 align="center">नमस्ते (Namaste)🙏🏻 I'm Vipul <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2>
-<hr>
-<div style="display: flex;justify-content: space-around;align-items: center;flex-flow:row wrap;border:1px solid #3f3f3f;padding:5px">
+<div align=center>
 <a href="https://github.com/thevipuljha">
     <img src="https://komarev.com/ghpvc/?username=thevipuljha&color=800080&label=Love+You&style=flat-square" alt="My profile visit count">
 </a>
@@ -15,69 +14,43 @@
 </a>
 </div>
 <hr>
-<br>
 <h2 align="center"> 👨‍💻 whoami</h2>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vipul-jha&custom_title=I%20Mostly%20Use&layout=compact)
-![vipul's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vipuljha&custom_title=My%20Time%20as%20Developer&layout=compact)
+```javascript
+let vipul={
+    pronouns: "He" || "🙋‍♂️" || "Him",
+    code: ["Javascript", "CPP", "Java", "HTML-CSS", "SHELL"],
+    askMeAbout: ["🌎web dev", "👨🏼‍💻tech", "📱android", {windows:"💻not literally"}],
+    hoobies:["🏏games","👨‍💻coding","🍿movies","♟️chess","✍️story-writting"],
+    currentFocus: "Web Developement",
+    popcornTalks:"🦸‍♂️Superheroes","👽Sci-fi","😂Comedy","❤️Pixar",
+    qoute: "Any idiot can write code that computer can understand but only good developers can write code that humans can understand",
+    funFact:"I once made one problem into two by using RegEx to solve first problem"
+};
+```
 
-![enter image description here](https://github-readme-stats.vercel.app/api?username=vipul-jha&show_icons=true&count_private=true&hide=issues&disable_animations=true&custom_title=MY%20GITHUB%20DATA&theme=radical&border_color=753778&border_radius=16)
-![enter image description here](https://badges.pufler.dev/visits/vipul-jha/vipul-jha)
+- I am studying Information Technology in [Maharaja Surajmal Institute of Technology](https://www.msit.in/)
+- I Live in New Delhi, India
+- I’m looking to collaborate on open source projects or find a job
+- I am pretty much easy to reach and just a 👋 away
+- You can also find me on [Twitter](https://twitter.com/thevipuljha) and [LinkedIn](https://www.linkedin.com/in/thevipuljha)
+- If you watch movies like ${ vipul.popcornTalks } let's hangout sometime
+- I want to know enough that I can help more people today than yesterday
 
+<div align="center">
+<img src = "https://github-readme-stats.vercel.app/api?username=thevipuljha&show_icons=true&count_private=true&custom_title=MY%20GITHUB%20DATA&theme=radical&border_color=753778"  alt="github stats" height="150" width="400">
+<img src = "http://github-readme-streak-stats.herokuapp.com?user=thevipuljha&theme=radical&fire=FFE608&border=753778"  alt="github streak data" height="150" width="400">
+</div>
+<div align="center">
+<img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=thevipuljha&custom_title=I%20Mostly%20Use&layout=compact"  alt="github languages usage" height="150" width="400">
+<img src = "https://github-readme-stats.vercel.app/api/wakatime?username=vipuljha&custom_title=My%20Time%20as%20Developer&layout=compact"  alt="waka time stat" height="150" width="400">
+</div>
 <!--START_SECTION:waka-->
 
-**I'm an Early 🐤**
-
-```text
-🌞 Morning    47 commits     ████░░░░░░░░░░░░░░░░░░░░░   17.03%
-🌆 Daytime    149 commits    █████████████░░░░░░░░░░░░   53.99%
-🌃 Evening    72 commits     ██████░░░░░░░░░░░░░░░░░░░   26.09%
-🌙 Night      8 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.9%
-
-```
-
-📅 **I'm Most Productive on Wednesday**
-
-```text
-Monday       32 commits     ███░░░░░░░░░░░░░░░░░░░░░░   11.59%
-Tuesday      39 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.13%
-Wednesday    95 commits     ████████░░░░░░░░░░░░░░░░░   34.42%
-Thursday     21 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.61%
-Friday       21 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.61%
-Saturday     38 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.77%
-Sunday       30 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.87%
-
-```
-
-📊 **This Week I Spent My Time On**
-
-```text
-⌚︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages:
-No Activity Tracked This Week
-
-🔥 Editors:
-No Activity Tracked This Week
-
-🐱‍💻 Projects:
-No Activity Tracked This Week
-
-```
-
-**I Mostly Code in JavaScript**
-
-```text
-JavaScript               6 repos             ████████████░░░░░░░░░░░░░   50.0%
-HTML                     3 repos             ██████░░░░░░░░░░░░░░░░░░░   25.0%
-C                        1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
-Java                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
-CSS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
-
-```
-
-Last Updated on 07/07/2021
-
 <!--END_SECTION:waka-->
-<!-- HTML -->
-<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card" />
+
+### Ending on funny note
+
+<img align="center" src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card"/>
+
+<img align="center" src="https://media.giphy.com/media/3o6Zt6KHxJTbXCnSvu/giphy.gif" width="300"/>
