@@ -1,60 +1,62 @@
 ## नमस्ते (Namaste)🙏🏻 I'm Vipul <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-![enter image description here](https://github-readme-stats.vercel.app/api?username=vipul-jha&show_icons=true&count_private=true&theme=gruvbox)
-![enter image description here](https://github-readme-stats.vercel.app/api/top-langs/?username=vipul-jha&layout=compact&count_private=true&theme=gruvbox)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vipul-jha&custom_title=I%20Mostly%20Use&layout=compact)
+![vipul's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vipuljha&custom_title=My%20Time%20as%20Developer&layout=compact)
+
+![enter image description here](https://github-readme-stats.vercel.app/api?username=vipul-jha&show_icons=true&count_private=true&hide=issues&disable_animations=true&custom_title=MY%20GITHUB%20DATA&theme=radical&border_color=753778&border_radius=16)
 
 <!--START_SECTION:waka-->
-**I'm an Early 🐤** 
+
+**I'm an Early 🐤 chidiya**
 
 ```text
-🌞 Morning    47 commits     ████░░░░░░░░░░░░░░░░░░░░░   17.28% 
-🌆 Daytime    147 commits    █████████████░░░░░░░░░░░░   54.04% 
-🌃 Evening    70 commits     ██████░░░░░░░░░░░░░░░░░░░   25.74% 
-🌙 Night      8 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.94%
-
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday       32 commits     ███░░░░░░░░░░░░░░░░░░░░░░   11.76% 
-Tuesday      39 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.34% 
-Wednesday    91 commits     ████████░░░░░░░░░░░░░░░░░   33.46% 
-Thursday     21 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.72% 
-Friday       21 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.72% 
-Saturday     38 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.97% 
-Sunday       30 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   11.03%
+🌞 Morning    47 commits     ████░░░░░░░░░░░░░░░░░░░░░   17.34%
+🌆 Daytime    146 commits    █████████████░░░░░░░░░░░░   53.87%
+🌃 Evening    70 commits     ██████░░░░░░░░░░░░░░░░░░░   25.83%
+🌙 Night      8 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.95%
 
 ```
 
+📅 **I'm Most Productive on Wednesday**
 
-📊 **This Week I Spent My Time On** 
+```text
+Monday       32 commits     ███░░░░░░░░░░░░░░░░░░░░░░   11.81%
+Tuesday      39 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.39%
+Wednesday    90 commits     ████████░░░░░░░░░░░░░░░░░   33.21%
+Thursday     21 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.75%
+Friday       21 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.75%
+Saturday     38 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.02%
+Sunday       30 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   11.07%
+
+```
+
+📊 **This Week I Spent My Time On**
 
 ```text
 ⌚︎ Time Zone: Asia/Kolkata
 
-💬 Programming Languages: 
+💬 Programming Languages:
 No Activity Tracked This Week
 
-🔥 Editors: 
+🔥 Editors:
 No Activity Tracked This Week
 
-🐱‍💻 Projects: 
+🐱‍💻 Projects:
 No Activity Tracked This Week
 
 ```
 
-**I Mostly Code in JavaScript** 
+**I Mostly Code in JavaScript**
 
 ```text
-JavaScript               6 repos             ████████████░░░░░░░░░░░░░   50.0% 
-HTML                     3 repos             ██████░░░░░░░░░░░░░░░░░░░   25.0% 
-C                        1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33% 
-Java                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33% 
+JavaScript               6 repos             ████████████░░░░░░░░░░░░░   50.0%
+HTML                     3 repos             ██████░░░░░░░░░░░░░░░░░░░   25.0%
+C                        1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
+Java                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
 CSS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
 
 ```
 
+Last Updated on 07/07/2021
 
-
- Last Updated on 07/07/2021
 <!--END_SECTION:waka-->
