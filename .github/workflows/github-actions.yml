@@ -1,6 +1,6 @@
 name: Waka Readme
 
-on:
+on: [push]
   schedule:
     # Runs at 12am IST
     - cron: '30 18 * * *'
@@ -14,3 +14,8 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          COMMIT_BY_ME: "True"
+          SHOW_PROFILE_VIEWS: "False"
+          SHOW_OS: "False"
+          SHOW_LOC_CHART: "False"
+          SHOW_SHORT_INFO: "False"
