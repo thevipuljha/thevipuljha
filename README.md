@@ -35,80 +35,75 @@ let vipul={
 - I am pretty much easy to reach and just a 👋 away
 - You can also find me on [Twitter](https://twitter.com/thevipuljha) and [LinkedIn](https://www.linkedin.com/in/thevipuljha)
 - If you watch movies like ${ vipul.popcornTalks } let's hangout sometime
-- I want to know enough that I can help more people today than yesterday
+- My Goal is to know enough that I can help more people today than yesterday
+<hr>
+<div align=center>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img src = "https://github-readme-stats.vercel.app/api?username=thevipuljha&show_icons=true&count_private=true&custom_title=MY%20GITHUB%20DATA&theme=radical&border_color=753778"  alt="github stats" height="150" width="400"></a>
+<a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img src = "http://github-readme-streak-stats.herokuapp.com?user=thevipuljha&theme=radical&fire=FFE608&border=753778" alt="github streak data" height="150" width="400"></a>
+</div>
+<hr>
+<br>
 
-<div align=center>
-<img src = "https://github-readme-stats.vercel.app/api?username=thevipuljha&show_icons=true&count_private=true&custom_title=MY%20GITHUB%20DATA&theme=radical&border_color=753778"  alt="github stats" height="150" width="400">
-<img src = "http://github-readme-streak-stats.herokuapp.com?user=thevipuljha&theme=radical&fire=FFE608&border=753778"  alt="github streak data" height="150" width="400">
-</div>
-<div align=center>
-<img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=thevipuljha&custom_title=I%20Mostly%20Use&layout=compact"  alt="github languages usage" height="150" width="400">
-<img src = "https://github-readme-stats.vercel.app/api/wakatime?username=vipuljha&custom_title=My%20Time%20as%20Developer&layout=compact"  alt="waka time stat" height="150" width="400">
-</div>
+<h2 align=center>👇<a href="https://wakatime.com/">Wakatime </a><a href="https://github.com/anmol098/waka-readme-stats">Readme Stats for My Profile</a>👇</h2>
 <!--START_SECTION:waka-->
-**I'm an Early 🐤** 
+**I'm an Early 🐤**
 
 ```text
-🌞 Morning    47 commits     ███░░░░░░░░░░░░░░░░░░░░░░   15.41% 
-🌆 Daytime    149 commits    ████████████░░░░░░░░░░░░░   48.85% 
-🌃 Evening    101 commits    ████████░░░░░░░░░░░░░░░░░   33.11% 
-🌙 Night      8 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.62%
-
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday       32 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.49% 
-Tuesday      39 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.79% 
-Wednesday    124 commits    ██████████░░░░░░░░░░░░░░░   40.66% 
-Thursday     21 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.89% 
-Friday       21 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.89% 
-Saturday     38 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.46% 
-Sunday       30 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.84%
+🌞 Morning    47 commits     ███░░░░░░░░░░░░░░░░░░░░░░   15.46%
+🌆 Daytime    149 commits    ████████████░░░░░░░░░░░░░   49.01%
+🌃 Evening    100 commits    ████████░░░░░░░░░░░░░░░░░   32.89%
+🌙 Night      8 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.63%
 
 ```
 
+📅 **I'm Most Productive on Wednesday**
 
-📊 **This Week I Spent My Time On** 
+```text
+Monday       32 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.53%
+Tuesday      39 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.83%
+Wednesday    123 commits    ██████████░░░░░░░░░░░░░░░   40.46%
+Thursday     21 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.91%
+Friday       21 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.91%
+Saturday     38 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.5%
+Sunday       30 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.87%
+
+```
+
+📊 **This Week I Spent My Time On**
 
 ```text
 ⌚︎ Time Zone: Asia/Kolkata
 
-💬 Programming Languages: 
-Markdown                 5 hrs 16 mins       ██████████████████████░░░   88.76% 
-YAML                     24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   6.93% 
-HTML                     15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.31%
+💬 Programming Languages:
+No Activity Tracked This Week
 
-🔥 Editors: 
-VS Code                  5 hrs 56 mins       █████████████████████████   100.0%
+🔥 Editors:
+No Activity Tracked This Week
 
-🐱‍💻 Projects: 
-vipul-jha                3 hrs 49 mins       ████████████████░░░░░░░░░   64.29% 
-thevipuljha              1 hr 52 mins        ███████░░░░░░░░░░░░░░░░░░   31.4% 
-newProject               15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.31%
+🐱‍💻 Projects:
+No Activity Tracked This Week
 
 ```
 
-**I Mostly Code in JavaScript** 
+**I Mostly Code in JavaScript**
 
 ```text
-JavaScript               6 repos             ████████████░░░░░░░░░░░░░   50.0% 
-HTML                     3 repos             ██████░░░░░░░░░░░░░░░░░░░   25.0% 
-C                        1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33% 
-Java                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33% 
+JavaScript               6 repos             ████████████░░░░░░░░░░░░░   50.0%
+HTML                     3 repos             ██████░░░░░░░░░░░░░░░░░░░   25.0%
+C                        1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
+Java                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
 CSS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
 
 ```
 
+Last Updated on 07/07/2021
 
-
- Last Updated on 08/07/2021
 <!--END_SECTION:waka-->
 
 <div align=center>
 <h2 align=center> Ending on a funny note</h2>
 <br>
-<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card"/>
+<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card" width="500"/>
 <br>
 <img src="https://media.giphy.com/media/3o6Zt6KHxJTbXCnSvu/giphy.gif" width="300"/>
 </div>
