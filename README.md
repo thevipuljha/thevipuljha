@@ -1,4 +1,7 @@
-<h2 align="center">नमस्ते (Namaste)🙏🏻 I'm Vipul <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2>
+<h2 align="center">नमस्ते (Namaste)🙏🏻 I'm Vipul<br><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2>
+<div align=center>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=A020E3&center=true&vCenter=true&lines=Web+Developement;Watching+Movies+and+shows;Javascript;Cricket;Linux" alt="Typing">
+</div>
 <div align=center>
 <a href="https://github.com/thevipuljha">
     <img src="https://komarev.com/ghpvc/?username=thevipuljha&color=800080&label=Love+You&style=flat-square" alt="My profile visit count">
@@ -38,7 +41,7 @@ let vipul={
 - My Goal is to know enough that I can help more people today than yesterday
 <hr>
 <div align=center>
-<a href="https://github.com/anuraghazra/github-readme-stats"><img src = "https://github-readme-stats.vercel.app/api?username=thevipuljha&show_icons=true&count_private=true&custom_title=MY%20GITHUB%20DATA&theme=radical&border_color=753778"  alt="github stats" height="150" width="400"></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img src = "https://github-readme-stats.vercel.app/api?username=thevipuljha&show_icons=true&count_private=true&custom_title=MY+GITHUB+DATA&theme=radical&border_color=753778"  alt="github stats" height="150" width="400"></a>
 <a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img src = "http://github-readme-streak-stats.herokuapp.com?user=thevipuljha&theme=radical&fire=FFE608&border=753778" alt="github streak data" height="150" width="400"></a>
 </div>
 <hr>
@@ -46,66 +49,58 @@ let vipul={
 
 <h2 align=center>👇<a href="https://wakatime.com/">Wakatime </a><a href="https://github.com/anmol098/waka-readme-stats">Readme Stats for My Profile</a>👇</h2>
 <!--START_SECTION:waka-->
-**I'm an Early 🐤** 
+**I'm an Early 🐤**
 
 ```text
-🌞 Morning    49 commits     ████░░░░░░░░░░░░░░░░░░░░░   15.96% 
-🌆 Daytime    149 commits    ████████████░░░░░░░░░░░░░   48.53% 
-🌃 Evening    101 commits    ████████░░░░░░░░░░░░░░░░░   32.9% 
-🌙 Night      8 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.61%
-
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday       32 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.42% 
-Tuesday      39 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.7% 
-Wednesday    124 commits    ██████████░░░░░░░░░░░░░░░   40.39% 
-Thursday     23 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   7.49% 
-Friday       21 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.84% 
-Saturday     38 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.38% 
-Sunday       30 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.77%
+🌞 Morning    47 commits     ███░░░░░░░░░░░░░░░░░░░░░░   15.46%
+🌆 Daytime    149 commits    ████████████░░░░░░░░░░░░░   49.01%
+🌃 Evening    100 commits    ████████░░░░░░░░░░░░░░░░░   32.89%
+🌙 Night      8 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.63%
 
 ```
 
+📅 **I'm Most Productive on Wednesday**
 
-📊 **This Week I Spent My Time On** 
+```text
+Monday       32 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.53%
+Tuesday      39 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.83%
+Wednesday    123 commits    ██████████░░░░░░░░░░░░░░░   40.46%
+Thursday     21 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.91%
+Friday       21 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.91%
+Saturday     38 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.5%
+Sunday       30 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.87%
+
+```
+
+📊 **This Week I Spent My Time On**
 
 ```text
 ⌚︎ Time Zone: Asia/Kolkata
 
-💬 Programming Languages: 
-Markdown                 5 hrs 16 mins       ██████████████████████░░░   88.76% 
-YAML                     24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   6.93% 
-HTML                     15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.31%
+💬 Programming Languages:
+No Activity Tracked This Week
 
-🔥 Editors: 
-VS Code                  5 hrs 56 mins       █████████████████████████   100.0%
+🔥 Editors:
+No Activity Tracked This Week
 
-🐱‍💻 Projects: 
-vipul-jha                3 hrs 49 mins       ████████████████░░░░░░░░░   64.29% 
-thevipuljha              1 hr 52 mins        ███████░░░░░░░░░░░░░░░░░░   31.4% 
-newProject               15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.31%
-
-💻 Operating System: 
-Windows                  5 hrs 56 mins       █████████████████████████   100.0%
+🐱‍💻 Projects:
+No Activity Tracked This Week
 
 ```
 
-**I Mostly Code in JavaScript** 
+**I Mostly Code in JavaScript**
 
 ```text
-JavaScript               6 repos             ████████████░░░░░░░░░░░░░   50.0% 
-HTML                     3 repos             ██████░░░░░░░░░░░░░░░░░░░   25.0% 
-C                        1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33% 
-Java                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33% 
+JavaScript               6 repos             ████████████░░░░░░░░░░░░░   50.0%
+HTML                     3 repos             ██████░░░░░░░░░░░░░░░░░░░   25.0%
+C                        1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
+Java                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
 CSS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   8.33%
 
 ```
 
+Last Updated on 07/07/2021
 
-
- Last Updated on 08/07/2021
 <!--END_SECTION:waka-->
 
 <div align=center>
