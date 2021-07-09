@@ -1,0 +1,73 @@
+:root {
+  --dark-jungle-green: #071e22ff;
+  --bittersweet: #ff6f59ff;
+  --go-green: #27ae60ff;
+  --french-lilac: #925d98ff;
+  --tart-orange: #ff3333ff;
+  --shadow-bg: #888888;
+
+  /*  --fb: #3b5998;
+  --twitter: #1da1f2;
+  --linkedin: #007bb5;
+  --whatsapp: #25d366; */
+}
+
+html {
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+body {
+  width: 90vw;
+}
+
+.title-container {
+  padding: 8px 0;
+  margin-bottom: 5px;
+}
+#hr {
+  height: 4px;
+  background-color: var(--french-lilac);
+  width: 140px;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+
+.intro-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-pic {
+  border: 1px solid black;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 3s ease-in-out 1;
+  animation-delay: 2s;
+}
+.profile-pic img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px var(--shadow-bg);
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
