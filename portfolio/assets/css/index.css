@@ -1,9 +1,9 @@
 :root {
-    --dark-jungle-green: #071e22ff;
-    --bittersweet      : #ff6f59ff;
-    --go-green         : #27ae60ff;
-    --french-lilac     : #925d98ff;
-    --tart-orange      : #ff3333ff;
+    --dark-jungle-green: #071e22;
+    --bittersweet      : #ff6f59;
+    --go-green         : #27ae60;
+    --french-lilac     : #925d98;
+    --tart-orange      : #ff3333;
     --shadow-bg        : #888888;
     --css-color        : #1572b6;
     --java-color       : #007396;
@@ -21,39 +21,39 @@
   --whatsapp           : #25d366; */
 }
 
-.js {
+#jssvg {
     color: var(--javascript-color);
 }
 
-.html {
+#htmlsvg {
     color: var(--html-color);
 }
 
-.css {
+#csssvg {
     color: var(--css-color);
 }
 
-.c {
+#csvg {
     color: var(--c-color);
 }
 
-.cpp {
+#cppsvg {
     color: var(--cpp-color);
 }
 
-.java {
+#javasvg {
     color: var(--java-color);
 }
 
-.node {
+#nodesvg {
     color: var(--node-color);
 }
 
-.mysql {
+#mysqlsvg {
     color: var(--mysql-color);
 }
 
-.git {
+#gitsvg {
     color: var(--git-color);
 }
 
@@ -177,6 +177,46 @@ td svg {
 }
 
 .projects-container {
-    width : 100%;
-    border: 1px solid red;
+    width: 100%;
+}
+
+.project-row svg {
+    width: 36px;
+}
+
+.project-snap img {
+    width    : 100%;
+    max-width: 300px;
+}
+
+.project-row {
+    border               : 1px solid var(--dark-jungle-green);
+    display              : grid;
+    grid-template-columns: 1fr minmax(196px, 2fr) 1fr;
+    gap                  : 10px;
+    margin               : 10px 0;
+    border-radius        : 10px;
+}
+
+.view-project {
+    display        : flex;
+    flex-flow      : column nowrap;
+    justify-content: space-around;
+    align-items    : center;
+}
+
+.project-snap {
+    display      : grid;
+    place-content: center;
+    padding      : 0 10px;
+    border-left  : 1px solid var(--dark-jungle-green);
+    border-right : 1px solid var(--dark-jungle-green);
+}
+
+.project-tech-stack {
+    display              : grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content        : center;
+    justify-items        : center;
+    row-gap              : 10px;
 }
