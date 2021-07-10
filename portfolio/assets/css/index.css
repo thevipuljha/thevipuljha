@@ -15,10 +15,11 @@
     --node-color       : #339933;
     --mysql-color      : #4479a1;
     --skill-logo-width : 60px;
-    /*  --fb           : #3b5998;
-  --twitter            : #1da1f2;
-  --linkedin           : #007bb5;
-  --whatsapp           : #25d366; */
+    --telegram         : #26A5E4;
+    --gmail            : #EA4335;
+    --github           : #181717;
+    --twitter          : #1da1f2;
+    --linkedin         : #007bb5;
 }
 
 #jssvg {
@@ -55,6 +56,26 @@
 
 #gitsvg {
     color: var(--git-color);
+}
+
+#githubsvg {
+    color: var(--github);
+}
+
+#linkedInsvg {
+    color: var(--linkedin);
+}
+
+#twittersvg {
+    color: var(--twitter);
+}
+
+#telegramsvg {
+    color: var(--telegram);
+}
+
+#gmailsvg {
+    color: var(--gmail);
 }
 
 html {
@@ -252,4 +273,42 @@ td svg {
 .project-decription {
     margin: 0;
     width : 80%;
+}
+
+.footer-container>span {
+    display        : flex;
+    width          : 100%;
+    flex-flow      : row nowrap;
+    white-space    : nowrap;
+    justify-content: center;
+    align-items    : center;
+}
+
+.contact-container {
+    width          : 100%;
+    display        : flex;
+    flex-flow      : column nowrap;
+    align-items    : center;
+    justify-content: space-evenly;
+    padding        : 10px 0;
+}
+
+.social-container svg {
+    width: 36px;
+}
+
+.social-container {
+    width          : 100%;
+    border         : 1px solid var(--dark-jungle-green);
+    display        : flex;
+    flex-flow      : row nowrap;
+    align-items    : center;
+    justify-content: space-evenly;
+    padding        : 6px 0;
+    margin         : 10px 0;
+}
+
+.footer-container svg {
+    width  : 24px;
+    padding: 0 6px;
 }
