@@ -127,3 +127,40 @@ td svg {
 .skill-title {
   text-transform: uppercase;
 }
+
+.js {
+  color: var(--javascript-color);
+  fill: var(--javascript-color);
+}
+.html {
+  color: var(--html-color);
+  fill: var(--html-color);
+}
+.css {
+  color: var(--css-color);
+  fill: var(--css-color);
+}
+.c {
+  color: var(--c-color);
+  fill: var(--c-color);
+}
+.cpp {
+  color: var(--cpp-color);
+  fill: var(--cpp-color);
+}
+.java {
+  color: var(--java-color);
+  fill: var(--java-color);
+}
+.node {
+  color: var(--node-color);
+  fill: var(--node-color);
+}
+.mysql {
+  color: var(--mysql-color);
+  fill: var(--mysql-color);
+}
+.git {
+  color: var(--git-color);
+  fill: var(--git-color);
+}
