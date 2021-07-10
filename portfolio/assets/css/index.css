@@ -14,7 +14,7 @@
   --git-color: #f05032;
   --node-color: #339933;
   --mysql-color: #4479a1;
-
+  --skill-logo-width: 60px;
   /*  --fb: #3b5998;
   --twitter: #1da1f2;
   --linkedin: #007bb5;
@@ -51,8 +51,6 @@ body {
   justify-content: space-around;
 }
 .profile-pic {
-  border: 1px solid black;
-  border-radius: 50%;
   display: grid;
   place-items: center;
   -webkit-animation: spin 4s linear infinite;
@@ -62,7 +60,7 @@ body {
 }
 .profile-pic img {
   border-radius: 50%;
-  box-shadow: 0 0 10px 2px var(--shadow-bg);
+  box-shadow: 0 0 8px 2px var(--shadow-bg);
 }
 
 @-moz-keyframes spin {
@@ -80,10 +78,52 @@ body {
     transform: rotate(360deg);
   }
 }
+
 .about-container {
   width: 40%;
 }
-#css {
-  fill: #1572b6;
-  width: 100px;
+
+.skills-section {
+  width: 100%;
+  /* border: 1px solid red; */
+  margin-top: 12px;
+}
+.skill-heading {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 8px;
+}
+
+.skill-container {
+  width: 100%;
+}
+.skill-row {
+  /* background-color: #888888; */
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin: 2px 0;
+}
+td {
+  border: 1px solid black;
+}
+td svg {
+  width: var(--skill-logo-width);
+  padding: 6px;
+}
+.skill-logo {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.skill-progress {
+  width: 70%;
+  height: var(--skill-logo-width);
+  /* margin-left: 2%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-title {
+  text-transform: uppercase;
 }
