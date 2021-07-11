@@ -21,8 +21,8 @@
     --social-color-twitter  : #1da1f2;
     --social-color-linkedin : #007bb5;
     --font-skill-title      : 'Montserrat', 'Lucida Sans Regular', sans-serif;
-    --font-section-heading  : 'Poppins', 'Lucida Sans Regular', sans-serif;
-    --font-normal           : 'Roboto Slab', 'Lucida Sans Regular', sans-serif;
+    --font-section-heading  : 'Roboto Slab', 'Lucida Sans Regular', sans-serif;
+    --font-normal           : 'Noto Sans JP', 'Lucida Sans Regular', sans-serif;
 }
 
 #jssvg,
@@ -106,7 +106,14 @@ html {
 }
 
 body {
-    width: 90vw;
+    width      : 90vw;
+    font-family: var(--font-normal);
+    font-size  : 1.2em;
+}
+
+h2,
+h3 {
+    font-family: var(--font-section-heading);
 }
 
 .title-container {
@@ -213,7 +220,7 @@ td svg {
     text-transform         : uppercase;
     font-family            : var(--font-skill-title);
     font-weight            : 900;
-    font-size              : 1.6em;
+    font-size              : 1.4em;
     background-clip        : text;
     -webkit-background-clip: text;
     color                  : #ffffff;
@@ -331,11 +338,12 @@ td svg {
 }
 
 .footer-container svg {
-    width  : 24px;
+    width  : 22px;
     padding: 0 6px;
 }
 
 .footer-container {
+    font-size    : 0.8em;
     margin-bottom: 44px;
 }
 
