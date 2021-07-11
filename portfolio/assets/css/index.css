@@ -194,15 +194,6 @@ td svg {
     padding: 6px;
 }
 
-.skill-logo-wrapper {
-    /* border       : 1px solid var(--shadow-bg);
-    border-radius: 50%; */
-    width      : calc(var(--skill-logo-width) + 16px);
-    height     : calc(var(--skill-logo-width) + 16px);
-    display    : grid;
-    place-items: center;
-}
-
 .skill-logo {
     width          : 25%;
     display        : flex;
