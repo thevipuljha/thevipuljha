@@ -181,6 +181,22 @@ h3 {
     margin-top: 12px;
 }
 
+.hire-me-container {
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-evenly;
+    padding        : 6px;
+}
+
+.hire-me-container a {
+    text-decoration: none;
+    color          : var(--tart-orange);
+    border         : 1px solid var(--shadow-bg);
+    padding        : 4px 8px;
+    border-radius  : 12px;
+}
+
 .section-heading {
     text-transform: uppercase;
     margin        : 0;
