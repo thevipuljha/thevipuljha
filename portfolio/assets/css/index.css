@@ -1,81 +1,84 @@
 :root {
-    --dark-jungle-green: #071e22;
-    --bittersweet      : #ff6f59;
-    --go-green         : #27ae60;
-    --french-lilac     : #925d98;
-    --tart-orange      : #ff3333;
-    --shadow-bg        : #888888;
-    --css-color        : #1572b6;
-    --java-color       : #007396;
-    --javascript-color : #f7df1e;
-    --html-color       : #e34f26;
-    --c-color          : #a8b9cc;
-    --cpp-color        : #00599c;
-    --git-color        : #f05032;
-    --node-color       : #339933;
-    --mysql-color      : #4479a1;
-    --skill-logo-width : 60px;
-    --telegram         : #26A5E4;
-    --gmail            : #EA4335;
-    --github           : #181717;
-    --twitter          : #1da1f2;
-    --linkedin         : #007bb5;
+    --dark-jungle-green     : #071e22;
+    --bittersweet           : #ff6f59;
+    --go-green              : #27ae60;
+    --french-lilac          : #925d98;
+    --tart-orange           : #ff3333;
+    --shadow-bg             : #888888;
+    --skill-color-css       : #1572b6;
+    --skill-color-java      : #007396;
+    --skill-color-javascript: #f7df1e;
+    --skill-color-html      : #e34f26;
+    --skill-color-c         : #a8b9cc;
+    --skill-color-cpp       : #00599c;
+    --skill-color-git       : #f05032;
+    --skill-color-node      : #339933;
+    --skill-color-mysql     : #4479a1;
+    --skill-logo-width      : 60px;
+    --social-color-telegram : #26A5E4;
+    --social-color-gmail    : #EA4335;
+    --social-color-github   : #181717;
+    --social-color-twitter  : #1da1f2;
+    --social-color-linkedin : #007bb5;
+    --font-skill-title      : 'Montserrat', 'Lucida Sans Regular', sans-serif;
+    --font-section-heading  : 'Poppins', 'Lucida Sans Regular', sans-serif;
+    --font-normal           : 'Roboto Slab', 'Lucida Sans Regular', sans-serif;
 }
 
 #jssvg {
-    color: var(--javascript-color);
+    color: var(--skill-color-javascript);
 }
 
 #htmlsvg {
-    color: var(--html-color);
+    color: var(--skill-color-html);
 }
 
 #csssvg {
-    color: var(--css-color);
+    color: var(--skill-color-css);
 }
 
 #csvg {
-    color: var(--c-color);
+    color: var(--skill-color-c);
 }
 
 #cppsvg {
-    color: var(--cpp-color);
+    color: var(--skill-color-cpp);
 }
 
 #javasvg {
-    color: var(--java-color);
+    color: var(--skill-color-java);
 }
 
 #nodesvg {
-    color: var(--node-color);
+    color: var(--skill-color-node);
 }
 
 #mysqlsvg {
-    color: var(--mysql-color);
+    color: var(--skill-color-mysql);
 }
 
 #gitsvg {
-    color: var(--git-color);
+    color: var(--skill-color-git);
 }
 
 #githubsvg {
-    color: var(--github);
+    color: var(--social-color-github);
 }
 
 #linkedInsvg {
-    color: var(--linkedin);
+    color: var(--social-color-linkedin);
 }
 
 #twittersvg {
-    color: var(--twitter);
+    color: var(--social-color-twitter);
 }
 
 #telegramsvg {
-    color: var(--telegram);
+    color: var(--social-color-telegram);
 }
 
 #gmailsvg {
-    color: var(--gmail);
+    color: var(--social-color-gmail);
 }
 
 html {
@@ -185,16 +188,25 @@ td svg {
 }
 
 .skill-progress {
-    width          : 70%;
-    height         : var(--skill-logo-width);
-    /* margin-left : 2%; */
-    display        : flex;
-    justify-content: center;
-    align-items    : center;
+    width           : 70%;
+    height          : var(--skill-logo-width);
+    /* margin-left  : 2%; */
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: var(--skill-color-javascript);
+    color           : var(--skill-color-javascript);
 }
 
 .skill-title {
-    text-transform: uppercase;
+    text-transform           : uppercase;
+    font-family              : var(--font-skill-title);
+    font-weight              : 900;
+    font-size                : 1.6em;
+    background-clip          : text;
+    -webkit-background-clip  : text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
 }
 
 .projects-container {
