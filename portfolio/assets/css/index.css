@@ -23,6 +23,7 @@
     --font-skill-title      : 'Montserrat', 'Lucida Sans Regular', sans-serif;
     --font-section-heading  : 'Roboto Slab', 'Lucida Sans Regular', sans-serif;
     --font-normal           : 'Noto Sans JP', 'Lucida Sans Regular', sans-serif;
+    scroll-behavior         : smooth;
 }
 
 button,
@@ -115,6 +116,11 @@ body {
     width      : 90vw;
     font-family: var(--font-normal);
     font-size  : 1.2em;
+}
+
+a {
+    transition: border 500ms ease 0s, color 400ms ease 0s;
+    outline   : none;
 }
 
 h2,
@@ -299,7 +305,21 @@ td svg {
 }
 
 .view-project a {
-    color: var(--dark-jungle-green);
+    color          : var(--dark-jungle-green);
+    border         : 2px solid transparent;
+    display        : grid;
+    place-items    : center;
+    padding        : 2px;
+    text-decoration: none;
+    border-radius  : 8px;
+}
+
+.view-project a:focus,
+.view-project a:active,
+.view-project a:hover {
+    border-color         : var(--dark-jungle-green);
+    --social-color-github: var(--tart-orange);
+    color                : var(--tart-orange);
 }
 
 .project-snap {
@@ -369,6 +389,22 @@ td svg {
     border-bottom-right-radius: 12px;
 }
 
+.social-container a {
+    border         : 2px solid transparent;
+    display        : grid;
+    place-items    : center;
+    padding        : 2px 4px;
+    text-decoration: none;
+    border-radius  : 8px;
+}
+
+.social-container a:hover,
+.social-container a:focus,
+.social-container a:active {
+    border-color: var(--dark-jungle-green);
+    color       : var(--tart-orange);
+}
+
 .footer-container>span {
     display        : flex;
     width          : 100%;
@@ -410,4 +446,15 @@ td svg {
     text-decoration: none;
     text-transform : capitalize;
     font-size      : medium;
+    border         : 2px solid transparent;
+    padding        : 2px 4px;
+    text-decoration: none;
+    border-radius  : 8px;
+}
+
+.nav-bar a:hover,
+.nav-bar a:focus,
+.nav-bar a:active {
+    border-color: var(--dark-jungle-green);
+    color       : var(--tart-orange);
 }
