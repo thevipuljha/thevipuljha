@@ -4,7 +4,7 @@
     --go-green              : #27ae60;
     --french-lilac          : #925d98;
     --tart-orange           : #ff3333;
-    --shadow-bg             : #888888;
+    --shadow-bg             : #999888;
     --skill-color-css       : #1572b6;
     --skill-color-java      : #007396;
     --skill-color-javascript: #f7df1e;
@@ -14,7 +14,7 @@
     --skill-color-git       : #f05032;
     --skill-color-node      : #339933;
     --skill-color-mysql     : #4479a1;
-    --skill-logo-width      : 60px;
+    --skill-logo-width      : 2em;
     --social-color-telegram : #26A5E4;
     --social-color-gmail    : #EA4335;
     --social-color-github   : #181717;
@@ -25,40 +25,58 @@
     --font-normal           : 'Roboto Slab', 'Lucida Sans Regular', sans-serif;
 }
 
-#jssvg {
-    color: var(--skill-color-javascript);
+#jssvg,
+.js-logo {
+    background-color: var(--skill-color-javascript);
+    color           : var(--skill-color-javascript);
 }
 
-#htmlsvg {
-    color: var(--skill-color-html);
+#htmlsvg,
+.html-logo {
+    background-color: var(--skill-color-html);
+    color           : var(--skill-color-html);
 }
 
-#csssvg {
-    color: var(--skill-color-css);
+#csssvg,
+.css-logo {
+    background-color: var(--skill-color-css);
+    color           : var(--skill-color-css);
 }
 
-#csvg {
-    color: var(--skill-color-c);
+#csvg,
+.c-logo {
+    background-color: var(--skill-color-c);
+    color           : var(--skill-color-c);
 }
 
-#cppsvg {
-    color: var(--skill-color-cpp);
+#cppsvg,
+.cpp-logo {
+    background-color: var(--skill-color-cpp);
+    color           : var(--skill-color-cpp);
 }
 
-#javasvg {
-    color: var(--skill-color-java);
+#javasvg,
+.java-logo {
+    background-color: var(--skill-color-java);
+    color           : var(--skill-color-java);
 }
 
-#nodesvg {
-    color: var(--skill-color-node);
+#nodesvg,
+.node-logo {
+    background-color: var(--skill-color-node);
+    color           : var(--skill-color-node);
 }
 
-#mysqlsvg {
-    color: var(--skill-color-mysql);
+#mysqlsvg,
+.mysql-logo {
+    background-color: var(--skill-color-mysql);
+    color           : var(--skill-color-mysql);
 }
 
-#gitsvg {
-    color: var(--skill-color-git);
+#gitsvg,
+.git-logo {
+    background-color: var(--skill-color-git);
+    color           : var(--skill-color-git);
 }
 
 #githubsvg {
@@ -165,20 +183,24 @@ body {
 }
 
 .skill-row {
-    /* background-color: #888888; */
     justify-content: space-around;
     display        : flex;
     align-items    : center;
     margin         : 2px 0;
 }
 
-td {
-    border: 1px solid black;
-}
-
 td svg {
     width  : var(--skill-logo-width);
     padding: 6px;
+}
+
+.skill-logo-wrapper {
+    /* border       : 1px solid var(--shadow-bg);
+    border-radius: 50%; */
+    width      : calc(var(--skill-logo-width) + 16px);
+    height     : calc(var(--skill-logo-width) + 16px);
+    display    : grid;
+    place-items: center;
 }
 
 .skill-logo {
@@ -188,25 +210,22 @@ td svg {
 }
 
 .skill-progress {
-    width           : 70%;
-    height          : var(--skill-logo-width);
-    /* margin-left  : 2%; */
-    display         : flex;
-    justify-content : center;
-    align-items     : center;
-    background-color: var(--skill-color-javascript);
-    color           : var(--skill-color-javascript);
+    width          : 70%;
+    height         : var(--skill-logo-width);
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    border-radius  : 16px;
 }
 
 .skill-title {
-    text-transform           : uppercase;
-    font-family              : var(--font-skill-title);
-    font-weight              : 900;
-    font-size                : 1.6em;
-    background-clip          : text;
-    -webkit-background-clip  : text;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
+    text-transform         : uppercase;
+    font-family            : var(--font-skill-title);
+    font-weight            : 900;
+    font-size              : 1.6em;
+    background-clip        : text;
+    -webkit-background-clip: text;
+    color                  : #ffffff;
 }
 
 .projects-container {
