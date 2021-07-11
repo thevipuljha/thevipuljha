@@ -25,6 +25,12 @@
     --font-normal           : 'Noto Sans JP', 'Lucida Sans Regular', sans-serif;
 }
 
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 #jssvg,
 .js-logo {
     background-color: var(--skill-color-javascript);
@@ -134,23 +140,23 @@ h3 {
 .intro-container {
     width          : 100%;
     display        : flex;
-    flex-flow      : row nowrap;
+    flex-flow      : column nowrap;
     align-items    : center;
     justify-content: space-around;
 }
 
 .profile-pic {
-    display          : grid;
-    place-items      : center;
-    -webkit-animation: spin 4s linear infinite;
-    -moz-animation   : spin 4s linear infinite;
-    animation        : spin 3s ease-in-out 1;
-    animation-delay  : 2s;
+    display             : grid;
+    place-items         : center;
+    /* -webkit-animation: spin 4s linear infinite;
+    -moz-animation      : spin 4s linear infinite;
+    animation           : spin 3s ease-in-out 1;
+    animation-delay     : 2s; */
 }
 
 .profile-pic img {
     border-radius: 50%;
-    box-shadow   : 0 0 8px 2px var(--shadow-bg);
+    box-shadow   : 0 0 6px 3px var(--shadow-bg);
 }
 
 /* @-moz-keyframes spin {
@@ -171,13 +177,8 @@ h3 {
     }
 } */
 
-.about-container {
-    width: 40%;
-}
-
 .skills-section {
     width     : 100%;
-    /* border : 1px solid red; */
     margin-top: 12px;
 }
 
@@ -195,6 +196,18 @@ h3 {
     border         : 1px solid var(--shadow-bg);
     padding        : 4px 8px;
     border-radius  : 12px;
+}
+
+    {
+    color: green;
+}
+
+.hire-me-container a:focus,
+.hire-me-container a:active,
+.hire-me-container a:hover {
+    background-color: var(--go-green);
+    border-color    : transparent;
+    color           : white;
 }
 
 .section-heading {
@@ -223,13 +236,13 @@ td svg {
 }
 
 .skill-logo {
-    width          : 25%;
+    width          : 20%;
     display        : flex;
     justify-content: center;
 }
 
 .skill-progress {
-    width          : 70%;
+    width          : 75%;
     height         : var(--skill-logo-width);
     display        : flex;
     justify-content: center;
@@ -241,7 +254,7 @@ td svg {
     text-transform         : uppercase;
     font-family            : var(--font-skill-title);
     font-weight            : 900;
-    font-size              : 1.4em;
+    font-size              : 1.2em;
     background-clip        : text;
     -webkit-background-clip: text;
     color                  : #ffffff;
