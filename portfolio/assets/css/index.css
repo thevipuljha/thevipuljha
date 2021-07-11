@@ -176,10 +176,15 @@ h3 {
         transform: rotate(360deg);
     }
 } */
+.skills-section,
+.projects-container,
+.contact-container {
+    width      : 100%;
+    padding-top: 10px;
+}
 
-.skills-section {
-    width     : 100%;
-    margin-top: 12px;
+.highlight-text {
+    color: var(--go-green);
 }
 
 .hire-me-container {
@@ -196,10 +201,6 @@ h3 {
     border         : 1px solid var(--shadow-bg);
     padding        : 4px 8px;
     border-radius  : 12px;
-}
-
-    {
-    color: green;
 }
 
 .hire-me-container a:focus,
@@ -258,10 +259,6 @@ td svg {
     background-clip        : text;
     -webkit-background-clip: text;
     color                  : #ffffff;
-}
-
-.projects-container {
-    width: 100%;
 }
 
 .project-row svg {
@@ -339,7 +336,6 @@ td svg {
 }
 
 .contact-container {
-    width          : 100%;
     display        : flex;
     flex-flow      : column nowrap;
     align-items    : center;
