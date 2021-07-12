@@ -1,10 +1,10 @@
 :root {
-    --dark-jungle-green     : #071e22;
-    --bittersweet           : #ff6f59;
-    --go-green              : #27ae60;
-    --french-lilac          : #925d98;
-    --tart-orange           : #ff3333;
-    --shadow-bg             : #878787;
+    --links-color      : #ff3333;
+    --text-color       : #0f0f0f;
+    --shadow-color     : #585858;
+    --highligther-color: #a81fb7;
+    --backgroung-color : #109e36;
+
     --skill-color-css       : #1572b6;
     --skill-color-java      : #007396;
     --skill-color-javascript: #f7df1e;
@@ -25,6 +25,7 @@
     --font-normal           : 'Noto Sans JP', 'Lucida Sans Regular', sans-serif;
     scroll-behavior         : smooth;
 }
+
 
 button,
 select,
@@ -110,6 +111,7 @@ html {
     width        : 100%;
     display      : grid;
     place-content: center;
+    color        : var(--text-color);
 }
 
 body {
@@ -119,7 +121,7 @@ body {
 }
 
 a {
-    transition: border 500ms ease 0s, color 400ms ease 0s;
+    transition: all 400ms ease 50ms;
     outline   : none;
 }
 
@@ -137,7 +139,7 @@ h3 {
 
 #hr {
     height          : 4px;
-    background-color: var(--french-lilac);
+    background-color: var(--highligther-color);
     width           : 140px;
     border-radius   : 10px;
     margin-left     : 8px;
@@ -162,7 +164,7 @@ h3 {
 
 .profile-pic img {
     border-radius: 50%;
-    box-shadow   : 0 0 6px 3px var(--shadow-bg);
+    box-shadow   : 0 0 6px 3px var(--shadow-color);
 }
 
 /* @-moz-keyframes spin {
@@ -190,7 +192,7 @@ h3 {
 }
 
 .highlight-text {
-    color: var(--go-green);
+    color: var(--highligther-color);
 }
 
 .hire-me-container {
@@ -203,8 +205,9 @@ h3 {
 
 .hire-me-container a {
     text-decoration: none;
-    color          : var(--tart-orange);
-    border         : 1px solid var(--shadow-bg);
+    color          : var(--text-color);
+    --text-color   : var(--links-color);
+    border         : 1px solid var(--shadow-color);
     padding        : 4px 8px;
     border-radius  : 12px;
 }
@@ -212,9 +215,9 @@ h3 {
 .hire-me-container a:focus,
 .hire-me-container a:active,
 .hire-me-container a:hover {
-    background-color: var(--go-green);
+    background-color: var(--backgroung-color);
     border-color    : transparent;
-    color           : white;
+    --text-color    : white;
 }
 
 .section-heading {
@@ -226,7 +229,7 @@ h3 {
 .skill-container {
     width        : 100%;
     padding      : 8px;
-    border       : 1px solid var(--shadow-bg);
+    border       : 1px solid var(--shadow-color);
     border-radius: 12px;
 }
 
@@ -264,7 +267,7 @@ td svg {
     font-size              : 1.2em;
     background-clip        : text;
     -webkit-background-clip: text;
-    color                  : #ffffff;
+    color                  : white;
 }
 
 .project-row svg {
@@ -272,7 +275,7 @@ td svg {
 }
 
 .project-row {
-    border         : 1px solid var(--shadow-bg);
+    border         : 1px solid var(--shadow-color);
     display        : flex;
     flex-flow      : column nowrap;
     align-items    : center;
@@ -287,7 +290,7 @@ td svg {
     grid-template-columns: 1fr 90px;
     align-items          : center;
     padding              : 4px 0;
-    border-bottom        : 1px solid var(--shadow-bg);
+    border-bottom        : 1px solid var(--shadow-color);
 }
 
 .project-title {
@@ -305,7 +308,7 @@ td svg {
 }
 
 .view-project a {
-    color          : var(--dark-jungle-green);
+    color          : var(--text-color);
     border         : 2px solid transparent;
     display        : grid;
     place-items    : center;
@@ -317,9 +320,9 @@ td svg {
 .view-project a:focus,
 .view-project a:active,
 .view-project a:hover {
-    border-color         : var(--dark-jungle-green);
-    --social-color-github: var(--tart-orange);
-    color                : var(--tart-orange);
+    border-color         : var(--shadow-color);
+    --social-color-github: var(--links-color);
+    color                : var(--links-color);
 }
 
 .project-snap {
@@ -334,7 +337,7 @@ td svg {
 
 .project-tech-stack {
     width          : 100%;
-    border         : 1px solid var(--shadow-bg);
+    border         : 1px solid var(--shadow-color);
     display        : flex;
     flex-flow      : row nowrap;
     align-items    : center;
@@ -368,7 +371,7 @@ td svg {
 
 .catch-phrase {
     width                  : 100%;
-    border                 : 1px solid var(--shadow-bg);
+    border                 : 1px solid var(--shadow-color);
     border-bottom          : none;
     border-top-left-radius : 12px;
     border-top-right-radius: 12px;
@@ -383,7 +386,7 @@ td svg {
     justify-content           : space-evenly;
     margin-bottom             : 10px;
     padding                   : 6px 0;
-    border                    : 1px solid var(--shadow-bg);
+    border                    : 1px solid var(--shadow-color);
     border-top                : none;
     border-bottom-left-radius : 12px;
     border-bottom-right-radius: 12px;
@@ -401,8 +404,8 @@ td svg {
 .social-container a:hover,
 .social-container a:focus,
 .social-container a:active {
-    border-color: var(--dark-jungle-green);
-    color       : var(--tart-orange);
+    border-color: var(--shadow-color);
+    color       : var(--links-color);
 }
 
 .footer-container>span {
@@ -426,12 +429,12 @@ td svg {
 }
 
 .nav-bar {
-    background-color       : ghostwhite;
+    background-color       : white;
     display                : flex;
     flex-flow              : row nowrap;
     align-items            : center;
     justify-content        : space-evenly;
-    box-shadow             : 0 0 20px 2px var(--shadow-bg);
+    box-shadow             : 0 0 20px 2px var(--shadow-color);
     border-top-left-radius : 16px;
     border-top-right-radius: 16px;
     padding                : 12px 0;
@@ -442,7 +445,7 @@ td svg {
 }
 
 .nav-bar a {
-    color          : var(--tart-orange);
+    color          : var(--links-color);
     text-decoration: none;
     text-transform : capitalize;
     font-size      : medium;
@@ -455,6 +458,5 @@ td svg {
 .nav-bar a:hover,
 .nav-bar a:focus,
 .nav-bar a:active {
-    border-color: var(--dark-jungle-green);
-    color       : var(--tart-orange);
+    border-color: var(--shadow-color);
 }
