@@ -6,14 +6,17 @@
 <a href="https://github.com/thevipuljha">
     <img src="https://komarev.com/ghpvc/?username=thevipuljha&color=800080&label=Love+You&style=flat-square" alt="My profile visit count">
 </a>
-<a href="https://www.linkedin.com/in/thevipuljha">
-    <img src="https://img.shields.io/static/v1?label=&style=flat-square&logoWidth=14&message=thevipuljha&logo=linkedin&labelColor=white&logoColor=0A66C2&color=0A66C2" alt="">
+<a href="https://vipuljha.netlify.app">
+    <img src="https://img.shields.io/static/v1?label=&style=flat-square&&message=Portfolio&color=339E37" alt="">
 </a>
 <a href="mailto:vipuljha1142@gmail.com">
-    <img src="https://img.shields.io/static/v1?label=&style=flat-square&logoWidth=14&message=vipuljha1142@gmail.com&logo=gmail&labelColor=white&logoColor=EA4335&color=EA4335" alt="">
+    <img src="https://img.shields.io/static/v1?label=&style=flat-square&logoWidth=14&message=vipuljha1142@gmail.com&logo=gmail&labelColor=white&logoColor=EA4335&color=EA4335" alt="vipul jha email">
+</a>
+<a href="https://www.linkedin.com/in/thevipuljha">
+    <img src="https://img.shields.io/static/v1?label=&style=flat-square&logoWidth=14&message=thevipuljha&logo=linkedin&labelColor=white&logoColor=0A66C2&color=0A66C2" alt="vipul jha linkedin">
 </a>
 <a href="https://twitter.com/thevipuljha">
-    <img src="https://img.shields.io/static/v1?label=&style=flat-square&logoWidth=14&message=thevipuljha&logo=twitter&labelColor=white&logoColor=1DA1F2&color=1DA1F2" alt="">
+    <img src="https://img.shields.io/static/v1?label=&style=flat-square&logoWidth=14&message=thevipuljha&logo=twitter&labelColor=white&logoColor=1DA1F2&color=1DA1F2" alt="vipul jha twitter">
 </a>
 </div>
 <hr>
@@ -49,72 +52,71 @@ let vipul={
 
 <h2 align=center>👇<a href="https://wakatime.com/">Wakatime </a><a href="https://github.com/anmol098/waka-readme-stats">Readme Stats for My Profile</a>👇</h2>
 <!--START_SECTION:waka-->
-**I'm an Early 🐤** 
+**I'm an Early 🐤**
 
 ```text
-🌞 Morning    52 commits     ████░░░░░░░░░░░░░░░░░░░░░   15.76% 
-🌆 Daytime    156 commits    ███████████░░░░░░░░░░░░░░   47.27% 
-🌃 Evening    114 commits    ████████░░░░░░░░░░░░░░░░░   34.55% 
+🌞 Morning    52 commits     ████░░░░░░░░░░░░░░░░░░░░░   15.76%
+🌆 Daytime    156 commits    ███████████░░░░░░░░░░░░░░   47.27%
+🌃 Evening    114 commits    ████████░░░░░░░░░░░░░░░░░   34.55%
 🌙 Night      8 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.42%
 
 ```
-📅 **I'm Most Productive on Wednesday** 
+
+📅 **I'm Most Productive on Wednesday**
 
 ```text
-Monday       32 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.7% 
-Tuesday      39 commits     ███░░░░░░░░░░░░░░░░░░░░░░   11.82% 
-Wednesday    110 commits    ████████░░░░░░░░░░░░░░░░░   33.33% 
-Thursday     26 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.88% 
-Friday       26 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.88% 
-Saturday     48 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.55% 
+Monday       32 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.7%
+Tuesday      39 commits     ███░░░░░░░░░░░░░░░░░░░░░░   11.82%
+Wednesday    110 commits    ████████░░░░░░░░░░░░░░░░░   33.33%
+Thursday     26 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.88%
+Friday       26 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.88%
+Saturday     48 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.55%
 Sunday       49 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.85%
 
 ```
 
-
-📊 **This Week I Spent My Time On** 
+📊 **This Week I Spent My Time On**
 
 ```text
 ⌚︎ Time Zone: Asia/Kolkata
 
-💬 Programming Languages: 
-HTML                     11 hrs 56 mins      █████████░░░░░░░░░░░░░░░░   38.04% 
-CSS                      10 hrs 49 mins      ████████░░░░░░░░░░░░░░░░░   34.45% 
-Markdown                 7 hrs 34 mins       ██████░░░░░░░░░░░░░░░░░░░   24.09% 
-YAML                     52 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.8% 
+💬 Programming Languages:
+HTML                     11 hrs 56 mins      █████████░░░░░░░░░░░░░░░░   38.04%
+CSS                      10 hrs 49 mins      ████████░░░░░░░░░░░░░░░░░   34.45%
+Markdown                 7 hrs 34 mins       ██████░░░░░░░░░░░░░░░░░░░   24.09%
+YAML                     52 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.8%
 Other                    5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.3%
 
-🔥 Editors: 
-VS Code                  31 hrs 24 mins      █████████████████████████   99.96% 
+🔥 Editors:
+VS Code                  31 hrs 24 mins      █████████████████████████   99.96%
 Sublime Text             0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.04%
 
-🐱‍💻 Projects: 
-thevipuljha              25 hrs 46 mins      ████████████████████░░░░░   82.03% 
-vipul-jha                4 hrs 56 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.75% 
-New folder               18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   0.97% 
-newProject               15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   0.82% 
+🐱‍💻 Projects:
+thevipuljha              25 hrs 46 mins      ████████████████████░░░░░   82.03%
+vipul-jha                4 hrs 56 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.75%
+New folder               18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   0.97%
+newProject               15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   0.82%
 Unknown Project          3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%
 
-💻 Operating System: 
-Windows                  29 hrs 1 min        ███████████████████████░░   92.37% 
+💻 Operating System:
+Windows                  29 hrs 1 min        ███████████████████████░░   92.37%
 Linux                    2 hrs 23 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   7.63%
 
 ```
 
-**I Mostly Code in JavaScript** 
+**I Mostly Code in JavaScript**
 
 ```text
-JavaScript               6 repos             ███████████░░░░░░░░░░░░░░   46.15% 
-HTML                     4 repos             ███████░░░░░░░░░░░░░░░░░░   30.77% 
-C                        1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   7.69% 
-Java                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   7.69% 
+JavaScript               6 repos             ███████████░░░░░░░░░░░░░░   46.15%
+HTML                     4 repos             ███████░░░░░░░░░░░░░░░░░░   30.77%
+C                        1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   7.69%
+Java                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   7.69%
 CSS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   7.69%
 
 ```
 
+Last Updated on 12/07/2021
 
-
- Last Updated on 12/07/2021
 <!--END_SECTION:waka-->
 
 <div align=center>
