@@ -203,21 +203,22 @@ h3 {
     padding        : 6px;
 }
 
-.hire-me-container a {
-    text-decoration: none;
-    color          : var(--text-color);
-    --text-color   : var(--links-color);
-    border         : 1px solid var(--shadow-color);
-    padding        : 4px 8px;
-    border-radius  : 12px;
+a {
+    color              : var(--links-color);
+    text-decoration    : none;
+    border             : 2px solid transparent;
+    border-bottom-color: var(--shadow-color);
+    padding            : 4px 8px;
 }
 
-.hire-me-container a:focus,
-.hire-me-container a:active,
-.hire-me-container a:hover {
-    background-color: var(--backgroung-color);
-    border-color    : transparent;
-    --text-color    : white;
+a:hover,
+a:focus {
+    border-radius: 12px;
+    border-color : var(--shadow-color);
+}
+
+a:active {
+    transform: scale(0.9) translateY(-2px);
 }
 
 .section-heading {
@@ -270,10 +271,6 @@ td svg {
     color                  : white;
 }
 
-.project-row svg {
-    width: 34px;
-}
-
 .project-row {
     border         : 1px solid var(--shadow-color);
     display        : flex;
@@ -307,18 +304,21 @@ td svg {
     align-items    : center;
 }
 
+.project-row svg {
+    width: 34px;
+}
+
 .view-project a {
-    color          : var(--text-color);
+    text-decoration: none;
     border         : 2px solid transparent;
+    color          : var(--text-color);
     display        : grid;
     place-items    : center;
     padding        : 2px;
-    text-decoration: none;
     border-radius  : 8px;
 }
 
 .view-project a:focus,
-.view-project a:active,
 .view-project a:hover {
     border-color         : var(--shadow-color);
     --social-color-github: var(--links-color);
@@ -393,19 +393,8 @@ td svg {
 }
 
 .social-container a {
-    border         : 2px solid transparent;
-    display        : grid;
-    place-items    : center;
-    padding        : 2px 4px;
-    text-decoration: none;
-    border-radius  : 8px;
-}
-
-.social-container a:hover,
-.social-container a:focus,
-.social-container a:active {
-    border-color: var(--shadow-color);
-    color       : var(--links-color);
+    display    : grid;
+    place-items: center;
 }
 
 .footer-container>span {
@@ -445,18 +434,7 @@ td svg {
 }
 
 .nav-bar a {
-    color          : var(--links-color);
-    text-decoration: none;
     text-transform : capitalize;
     font-size      : medium;
-    border         : 2px solid transparent;
-    padding        : 2px 4px;
     text-decoration: none;
-    border-radius  : 8px;
-}
-
-.nav-bar a:hover,
-.nav-bar a:focus,
-.nav-bar a:active {
-    border-color: var(--shadow-color);
 }
