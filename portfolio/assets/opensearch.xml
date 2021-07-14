@@ -1,0 +1,15 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Vipul Jha - Web Developer</ShortName>
+    <LongName>Vipul Jha - A Website Developer</LongName>
+    <Description>Hey there, It's Vipul Jha. A Website Developer from New Delhi, India. Not a Robot</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <AdultContent>false</AdultContent>
+    <Language>en-us</Language>
+    <Developer>Vipul Jha</Developer>
+    <Contact>vipuljha1142@gmail.com</Contact>
+    <Tags>css html jquery javascript web design responsive</Tags>
+    <Attribution>Search data from Vipul Jha https://vipuljha.netlify.app</Attribution>
+    <SyndicationRight>open</SyndicationRight>
+    <Image height="64" width="64" type="image/png">https://vipuljha.netlify.app/assets/iamges/profile.png</Image>
+</OpenSearchDescription>
