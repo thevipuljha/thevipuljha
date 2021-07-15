@@ -93,7 +93,6 @@
     --font-skill-title      : 'Montserrat', Impact, 'Arial Narrow Bold', sans-serif;
     --font-section-heading  : 'Roboto Slab', 'Segoe UI', Tahoma, Verdana, sans-serif;
     --font-normal           : 'Noto Sans JP', 'Courier New', Courier, monospace;
-    scroll-behavior         : smooth;
 }
 
 
@@ -177,22 +176,43 @@ a {
     color: var(--social-color-gmail);
 }
 
+.intro-container,
+.profile-pic,
+.hire-me-container,
+.skill-row,
+.skill-logo,
+.skill-progress,
+.project-row,
+.view-project,
+.project-tech-stack,
+.project-decription-div,
+.footer-container>span,
+.contact-container,
+.nav-bar {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.hire-me-container,
+.project-tech-stack,
+.contact-container,
+.nav-bar {
+    justify-content: space-evenly;
+}
+
 html {
-    width        : 100%;
-    display      : grid;
-    place-content: center;
-    color        : var(--text-color);
+    scroll-behavior: smooth;
+    width          : 100%;
+    display        : grid;
+    place-content  : center;
+    color          : var(--text-color);
 }
 
 body {
     width      : 90vw;
     font-family: var(--font-normal);
     font-size  : 1.2em;
-}
-
-a {
-    transition: all 400ms ease 50ms;
-    outline   : none;
 }
 
 h2,
@@ -215,23 +235,22 @@ h3 {
     margin-left     : 8px;
 }
 
+.intro-container,
+.profile-pic,
+.project-row,
+.contact-container {
+    width    : 100%;
+    flex-flow: column nowrap;
+}
+
 .intro-container {
-    width          : 100%;
-    display        : flex;
-    flex-flow      : column nowrap;
-    align-items    : center;
     justify-content: space-around;
 }
 
 .profile-pic {
-    margin-top     : 10px;
-    display        : flex;
-    flex-flow      : column nowrap;
-    align-items    : center;
-    justify-content: center;
-    transition     : all 300ms ease 0ms;
+    margin-top: 10px;
+    transition: all 300ms ease 0ms;
 }
-
 
 .drop-shadow {
     --shadow-color  : #cbcbcb;
@@ -264,7 +283,6 @@ h3 {
     100% {
         width: 120px;
     }
-
 }
 
 @keyframes bounce {
@@ -277,7 +295,6 @@ h3 {
         transform : translateY(-10px);
         box-shadow: 0 8px 8px 1px var(--shadow-color);
     }
-
 }
 
 .skills-section,
@@ -292,19 +309,18 @@ h3 {
 }
 
 .hire-me-container {
-    width          : 100%;
-    display        : flex;
-    align-items    : center;
-    justify-content: space-evenly;
-    padding        : 6px;
+    width  : 100%;
+    padding: 6px;
 }
 
 a {
+    outline            : none;
+    transition         : all 400ms ease 50ms;
     color              : var(--links-color);
     text-decoration    : none;
     border             : 2px solid transparent;
     border-bottom-color: var(--shadow-color);
-    padding            : 4px 8px;
+    padding            : 4px 5px;
 }
 
 a:hover,
@@ -332,8 +348,6 @@ a:active {
 
 .skill-row {
     justify-content: space-around;
-    display        : flex;
-    align-items    : center;
     margin         : 2px 0;
 }
 
@@ -343,18 +357,13 @@ td svg {
 }
 
 .skill-logo {
-    width          : 20%;
-    display        : flex;
-    justify-content: center;
+    width: 20%;
 }
 
 .skill-progress {
-    width          : 75%;
-    height         : var(--skill-logo-width);
-    display        : flex;
-    justify-content: center;
-    align-items    : center;
-    border-radius  : 16px;
+    width        : 75%;
+    height       : var(--skill-logo-width);
+    border-radius: 16px;
 }
 
 .skill-title {
@@ -369,9 +378,6 @@ td svg {
 
 .project-row {
     border         : 1px solid var(--shadow-color);
-    display        : flex;
-    flex-flow      : column nowrap;
-    align-items    : center;
     justify-content: space-between;
     margin         : 10px 0;
     border-radius  : 12px;
@@ -387,17 +393,14 @@ td svg {
 }
 
 .project-title {
-    text-align    : center;
     text-transform: uppercase;
     white-space   : nowrap;
     margin        : 0;
 }
 
 .view-project {
-    display        : flex;
     flex-flow      : row nowrap;
     justify-content: space-around;
-    align-items    : center;
 }
 
 .project-row svg {
@@ -406,12 +409,11 @@ td svg {
 }
 
 .view-project a {
-    text-decoration: none;
-    border         : 2px solid transparent;
-    color          : var(--text-color);
-    display        : grid;
-    place-items    : center;
-    border-radius  : 8px;
+    border       : 2px solid transparent;
+    color        : var(--text-color);
+    display      : grid;
+    place-items  : center;
+    border-radius: 8px;
 }
 
 .view-project a:focus,
@@ -428,37 +430,26 @@ td svg {
 }
 
 .project-snap img {
-    width: 100%;
+    width : 100%;
+    height: 100%;
 }
 
 .project-tech-stack {
-    width          : 100%;
-    border         : 1px solid var(--shadow-color);
-    display        : flex;
-    flex-flow      : row nowrap;
-    align-items    : center;
-    justify-content: space-evenly;
-    padding        : 8px 0;
+    width    : 100%;
+    border   : 1px solid var(--shadow-color);
+    flex-flow: row nowrap;
+    padding  : 8px 0;
 }
 
 .project-decription-div {
-    text-align     : center;
-    width          : 100%;
-    display        : flex;
-    justify-content: center;
-    padding        : 8px 0;
+    text-align: center;
+    width     : 100%;
+    padding   : 8px 0;
 }
 
 .project-decription {
     margin: 0;
     width : 80%;
-}
-
-.contact-container {
-    display        : flex;
-    flex-flow      : column nowrap;
-    align-items    : center;
-    justify-content: space-evenly;
 }
 
 .social-container svg {
@@ -494,12 +485,9 @@ td svg {
 }
 
 .footer-container>span {
-    display        : flex;
-    width          : 100%;
-    flex-flow      : row nowrap;
-    white-space    : nowrap;
-    justify-content: center;
-    align-items    : center;
+    width      : 100%;
+    flex-flow  : row nowrap;
+    white-space: nowrap;
 }
 
 .footer-container svg {
@@ -527,19 +515,14 @@ td svg {
 }
 
 .nav-bar {
-    display        : flex;
-    flex-flow      : row nowrap;
-    align-items    : center;
-    justify-content: space-evenly;
-    padding        : 12px 0;
-    width          : 100%;
+    flex-flow: row nowrap;
+    padding  : 12px 0;
+    width    : 100%;
 }
 
-
 .nav-bar a {
-    text-transform : capitalize;
-    font-size      : 0.85em;
-    text-decoration: none;
+    text-transform: capitalize;
+    font-size     : 0.85em;
 }
 
 @media (min-width: 560px) {
