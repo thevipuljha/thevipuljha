@@ -1,3 +1,73 @@
+@font-face {
+    font-family : 'Montserrat';
+    font-style  : normal;
+    font-weight : 800;
+    font-display: swap;
+    src         : local(''),
+        url('../fonts/montserrat-v15-latin-800.woff2') format('woff2'),
+        url('../fonts/montserrat-v15-latin-800.woff') format('woff');
+}
+
+@font-face {
+    font-family : 'Montserrat';
+    font-style  : normal;
+    font-display: swap;
+    font-weight : 900;
+    src         : local(''),
+        url('../fonts/montserrat-v15-latin-900.woff2') format('woff2'),
+        url('../fonts/montserrat-v15-latin-900.woff') format('woff');
+}
+
+@font-face {
+    font-family : 'Roboto Slab';
+    font-style  : normal;
+    font-display: swap;
+    font-weight : 400;
+    src         : local(''),
+        url('../fonts/roboto-slab-v13-latin_cyrillic-regular.woff2') format('woff2'),
+        url('../fonts/roboto-slab-v13-latin_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family : 'Roboto Slab';
+    font-style  : normal;
+    font-display: swap;
+    font-weight : 600;
+    src         : local(''),
+        url('../fonts/roboto-slab-v13-latin_cyrillic-600.woff2') format('woff2'),
+        url('../fonts/roboto-slab-v13-latin_cyrillic-600.woff') format('woff');
+}
+
+@font-face {
+    font-family : 'Noto Sans JP';
+    font-style  : normal;
+    font-display: swap;
+    font-weight : 300;
+    src         : local(''),
+        url('../fonts/noto-sans-jp-v28-latin-300.woff2') format('woff2'),
+        url('../fonts/noto-sans-jp-v28-latin-300.woff') format('woff');
+}
+
+@font-face {
+    font-family : 'Noto Sans JP';
+    font-style  : normal;
+    font-display: swap;
+    font-weight : 400;
+    src         : local(''),
+        url('../fonts/noto-sans-jp-v28-latin-regular.woff2') format('woff2'),
+        url('../fonts/noto-sans-jp-v28-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family : 'Noto Sans JP';
+    font-style  : normal;
+    font-display: swap;
+    font-weight : 500;
+    src         : local(''),
+        url('../fonts/noto-sans-jp-v28-latin-500.woff2') format('woff2'),
+        url('../fonts/noto-sans-jp-v28-latin-500.woff') format('woff');
+}
+
 :root {
     --links-color      : #ff3333;
     --text-color       : #0f0f0f;
@@ -20,9 +90,9 @@
     --social-color-github   : #181717;
     --social-color-twitter  : #1da1f2;
     --social-color-linkedin : #007bb5;
-    --font-skill-title      : 'Montserrat', 'Lucida Sans Regular', sans-serif;
-    --font-section-heading  : 'Roboto Slab', 'Lucida Sans Regular', sans-serif;
-    --font-normal           : 'Noto Sans JP', 'Lucida Sans Regular', sans-serif;
+    --font-skill-title      : 'Montserrat', Impact, 'Arial Narrow Bold', sans-serif;
+    --font-section-heading  : 'Roboto Slab', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    --font-normal           : 'Noto Sans JP', 'Courier New', Courier, monospace;
     scroll-behavior         : smooth;
 }
 
