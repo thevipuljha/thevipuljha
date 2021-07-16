@@ -201,7 +201,7 @@ h3 {
 .project-decription-div,
 .footer-container>span,
 .social-wrap,
-.nav-bar {
+.nav-links-container {
     display        : flex;
     align-items    : center;
     justify-content: center;
@@ -210,14 +210,14 @@ h3 {
 .hire-me-container,
 .project-tech-stack,
 .social-wrap,
-.nav-bar {
+.nav-links-container {
     justify-content: space-evenly;
 }
 
 .skills-section,
 .projects-section {
     width      : 100%;
-    padding-top: 24px;
+    padding-top: 18px;
 }
 
 .title-container {
@@ -420,24 +420,19 @@ hr {
     place-items: center;
 }
 
-.footer-container>span {
-    width      : 100%;
-    flex-flow  : row nowrap;
-    white-space: nowrap;
-}
-
-.footer-container svg {
-    width  : 22px;
-    padding: 0 6px;
-}
-
 .footer-container {
     font-size    : 0.8em;
     margin-bottom: 48px;
     padding      : 10px;
 }
 
-.nav-links-container {
+.footer-container img {
+    width  : 22px;
+    height : 22px;
+    padding: 8px 6px;
+}
+
+.nav-bar {
     display                : grid;
     place-items            : center;
     width                  : 100%;
@@ -450,13 +445,13 @@ hr {
     left                   : 0;
 }
 
-.nav-bar {
+.nav-links-container {
     flex-flow: row nowrap;
     padding  : 12px 0;
     width    : 100%;
 }
 
-.nav-bar a {
+.nav-links-container a {
     text-transform: capitalize;
     font-size     : 0.9em;
 }
@@ -467,7 +462,7 @@ hr {
         font-size: 1.1em;
     }
 
-    .nav-bar {
+    .nav-links-container {
         width: 90%;
     }
 }
@@ -478,7 +473,7 @@ hr {
         font-size: 1.3em;
     }
 
-    .nav-bar {
-        width: 65%;
+    .nav-links-container {
+        width: 70%;
     }
 }
