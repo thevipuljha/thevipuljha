@@ -74,6 +74,7 @@
     --links-color      : #005377;
     --text-color       : #0f0f0f;
     --highligther-color: #f71735;
+    --select-color-bg  : #5912b6;
     --tech-skill-color : #000000;
     --skill-logo-width : 2em;
     /* fonts */
@@ -118,25 +119,14 @@
     --tech-skill-color: #f05032;
 }
 
-
 #githubsvg {
     color: var(--social-color-github);
 }
 
-#linkedInsvg {
-    color: var(--social-color-linkedin);
-}
-
-#twittersvg {
-    color: var(--social-color-twitter);
-}
-
-#telegramsvg {
-    color: var(--social-color-telegram);
-}
-
-#gmailsvg {
-    color: var(--social-color-gmail);
+::-moz-selection,
+::selection {
+    color           : white;
+    background-color: var(--select-color-bg);
 }
 
 html {
@@ -161,6 +151,7 @@ a {
     border                     : 2px solid transparent;
     border-bottom-color        : var(--shadow-color);
     padding                    : 4px 5px;
+    user-select                : none;
 }
 
 a:hover,
@@ -308,6 +299,7 @@ hr {
     height          : var(--skill-logo-width);
     border-radius   : 1em;
     background-color: var(--tech-skill-color);
+    user-select     : none;
 }
 
 .skill-progress span {
