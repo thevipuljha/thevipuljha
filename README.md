@@ -52,7 +52,7 @@ let vipul={
 
 <h2 align=center>👇<a href="https://wakatime.com/">Wakatime </a><a href="https://github.com/anmol098/waka-readme-stats">Readme Stats for My Profile</a>👇</h2>
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-764%20hrs%2017%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-764%20hrs%2034%20mins-blue)
 
 **I'm an Early 🐤** 
 
@@ -83,16 +83,17 @@ Sunday       23 commits     ██░░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Python                   17 mins             █████████████████████████   99.81% 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.19%
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  17 mins             █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+FlaskMiniApi             17 mins             █████████████████████████   100.0%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    17 mins             █████████████████████████   100.0%
 
 ```
 
@@ -109,7 +110,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 25/08/2022 01:46:19 UTC
+ Last Updated on 26/08/2022 01:48:44 UTC
 <!--END_SECTION:waka-->
 
 <div align=center>
