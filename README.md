@@ -83,17 +83,16 @@ Sunday       23 commits     ██░░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Python                   17 mins             █████████████████████████   99.81% 
-JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.19%
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  17 mins             █████████████████████████   100.0%
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-FlaskMiniApi             17 mins             █████████████████████████   100.0%
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    17 mins             █████████████████████████   100.0%
+No Activity Tracked This Week
 
 ```
 
@@ -110,7 +109,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 01/09/2022 01:28:28 UTC
+ Last Updated on 02/09/2022 01:46:26 UTC
 <!--END_SECTION:waka-->
 
 <div align=center>
