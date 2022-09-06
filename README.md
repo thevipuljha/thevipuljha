@@ -52,7 +52,49 @@ let vipul={
 
 <h2 align=center>👇<a href="https://wakatime.com/">Wakatime </a><a href="https://github.com/anmol098/waka-readme-stats">Readme Stats for My Profile</a>👇</h2>
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-764%20hrs%2034%20mins-blue)
+
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning    37 commits     ████░░░░░░░░░░░░░░░░░░░░░   16.52% 
+🌆 Daytime    87 commits     █████████░░░░░░░░░░░░░░░░   38.84% 
+🌃 Evening    82 commits     █████████░░░░░░░░░░░░░░░░   36.61% 
+🌙 Night      18 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.04%
+
+```
+📅 **I'm Most Productive on Wednesday** 
+
+```text
+Monday       23 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.27% 
+Tuesday      27 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.05% 
+Wednesday    56 commits     ██████░░░░░░░░░░░░░░░░░░░   25.0% 
+Thursday     49 commits     █████░░░░░░░░░░░░░░░░░░░░   21.88% 
+Friday       26 commits     ███░░░░░░░░░░░░░░░░░░░░░░   11.61% 
+Saturday     20 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.93% 
+Sunday       23 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.27%
+
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+⌚︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+
+```
 
 **I Mostly Code in JavaScript** 
 
@@ -67,7 +109,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 05/09/2022 01:55:33 UTC
+ Last Updated on 06/09/2022 01:56:46 UTC
 <!--END_SECTION:waka-->
 
 <div align=center>
