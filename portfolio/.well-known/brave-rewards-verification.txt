@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: vipuljha.in
+Token: 4e6a560156fd60c6cd0e9720ffe3f33f1377dab4980637fe2b631140ed480d0f
