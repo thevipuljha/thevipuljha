@@ -52,7 +52,7 @@ let vipul={
 
 <h2 align=center>👇<a href="https://wakatime.com/">Wakatime </a><a href="https://github.com/anmol098/waka-readme-stats">Readme Stats for My Profile</a>👇</h2>
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-764%20hrs%2035%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-765%20hrs%2049%20mins-blue)
 
 **I'm an Early 🐤** 
 
@@ -83,16 +83,21 @@ Sunday       22 commits     ██░░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+HTML                     25 mins             ████████░░░░░░░░░░░░░░░░░   34.55% 
+Markdown                 21 mins             ███████░░░░░░░░░░░░░░░░░░   28.62% 
+CSS                      13 mins             ████░░░░░░░░░░░░░░░░░░░░░   18.09% 
+Other                    10 mins             ███░░░░░░░░░░░░░░░░░░░░░░   14.85% 
+JavaScript               2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   3.49%
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  1 hr 14 mins        █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+colorfun                 1 hr 3 mins         █████████████████████░░░░   85.15% 
+Unknown Project          10 mins             ███░░░░░░░░░░░░░░░░░░░░░░   14.85%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    1 hr 14 mins        █████████████████████████   100.0%
 
 ```
 
@@ -109,7 +114,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 27/10/2022 01:39:32 UTC
+ Last Updated on 28/10/2022 01:47:33 UTC
 <!--END_SECTION:waka-->
 
 <div align=center>
