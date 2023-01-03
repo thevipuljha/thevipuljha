@@ -54,48 +54,6 @@ let vipul={
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-819%20hrs%2059%20mins-blue)
 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning    16 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.94% 
-🌆 Daytime    69 commits     ██████████░░░░░░░░░░░░░░░   42.86% 
-🌃 Evening    67 commits     ██████████░░░░░░░░░░░░░░░   41.61% 
-🌙 Night      9 commits      █░░░░░░░░░░░░░░░░░░░░░░░░   5.59%
-
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday       12 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   7.45% 
-Tuesday      22 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.66% 
-Wednesday    43 commits     ██████░░░░░░░░░░░░░░░░░░░   26.71% 
-Thursday     36 commits     █████░░░░░░░░░░░░░░░░░░░░   22.36% 
-Friday       16 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.94% 
-Saturday     12 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   7.45% 
-Sunday       20 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.42%
-
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-⌚︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-
-```
-
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -109,7 +67,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 02/01/2023 01:06:40 UTC
+ Last Updated on 03/01/2023 01:05:50 UTC
 <!--END_SECTION:waka-->
 
 <div align=center>
