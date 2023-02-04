@@ -52,7 +52,7 @@ let vipul={
 
 <h2 align=center>👇<a href="https://wakatime.com/">Wakatime </a><a href="https://github.com/anmol098/waka-readme-stats">Readme Stats for My Profile</a>👇</h2>
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-987%20hrs%2027%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-987%20hrs%2048%20mins-blue)
 
 **I'm an Early 🐤** 
 
@@ -114,7 +114,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 03/02/2023 01:12:47 UTC
+ Last Updated on 04/02/2023 01:07:30 UTC
 <!--END_SECTION:waka-->
 
 <div align=center>
